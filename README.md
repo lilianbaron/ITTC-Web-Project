@@ -1,7 +1,7 @@
 ###### March 2020
 # 2020 ITTC Students Project
 
-[Site HOME](https://ittcserver.com/home)
+[SITE HOME](http://ittcserver.com/home)
 
 
 ## Original Github
