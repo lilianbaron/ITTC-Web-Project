@@ -1,5 +1,3 @@
-
-
 //! END Some Service ===
 
 var swiper = new Swiper('.swiper-container', {
