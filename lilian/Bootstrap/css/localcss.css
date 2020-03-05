@@ -1,0 +1,14 @@
+.jumbotron{
+  text-align:center;
+  text-shadow: black 0.2em 0.2em 0.2em;
+  color: white;
+  background-image: url('../images/comimg.jpg');
+  background-size: cover;
+  margin-top: 10px;
+}
+.footer{
+  background-color: #343A40;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}

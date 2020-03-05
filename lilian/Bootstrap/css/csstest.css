@@ -1,0 +1,7 @@
+.jumbotron{
+  text-align: center;
+  text-shadow: black 0.2em 0.2em 0.2em;
+  background-image: url('../images/comimg.jpg');
+  background-size: cover;
+  margin-top: 10px;
+}

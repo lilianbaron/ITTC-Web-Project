@@ -1,0 +1,163 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+font-family: 'Poppins', sans-serif;
+}
+header{
+  display: flex;
+  width: 100%; height: 15vh;
+  align-items: center;
+  background-color: rgb(54, 55, 59);
+}
+.logo,.nav-links,.icons{
+  display: flex;
+
+}
+.logo{
+  margin-left: 150px;
+  flex: 2;
+}
+nav{
+  flex: 2;
+}
+.nav-links{
+  justify-content: space-around;
+  list-style: none;
+  margin-right: 10px;
+}
+.nav-link{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-family:'Rubik', sans-serif;
+}
+.nav-link:hover{
+  color: black;
+  background-color: rgb(247, 83, 110);
+  border-radius: 10px;
+  padding: 10px;
+}
+.icons{
+  flex: 1;
+  justify-content: flex-end;
+}
+.icons a{
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+.presentation{
+  display: flex;
+  width:90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+.introduction{
+  flex: 1;
+}
+.intro-text h1{
+  font-weight: 500;
+  font-size: 44px;
+  font-family: 'Lobster', cursive;
+}
+.intro-text p {
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;;
+}
+.cover{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.cover img{
+  height: 40vh;
+  border-radius: 10px;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+}
+.button{
+   padding: 15px;
+
+}
+.button-select{
+  margin-left: 30px;
+  padding: 10px;
+  background-color: rgb(245, 101, 245);
+  border: none;
+  border-radius: 5px;
+}
+.button-select:hover{
+  color: white;
+  background: black;
+}
+.content{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 85vh;
+  align-items: center;
+}
+#text{
+  flex: 1;
+}
+#title{
+  width: 60%;
+}
+#title h1{
+  font-size: 35px;
+  font-weight: 500;
+}
+#title b{
+  font-size: 35px;
+  color: rgb(243, 39, 134);
+  margin-top:  40px;
+}
+#login{
+ flex: 1;
+ justify-content: space-around;
+ width: 20%;
+ float: right;
+ background-color: saddlebrown;
+ border-radius: 5px;
+}
+#login h1{
+  position: relative;
+  padding-bottom: 15px;
+  text-align: center;
+}
+#login form label{
+ width: 100px;
+ display: inline-block;
+}
+#login form input {
+  padding: 10px;
+  font-size: 18px;
+
+}
+ #login #submit{
+ color: red;
+ border-radius: 5px;
+ background-color: rgb(54, 55, 59);
+ font-weight: 500;
+ border: none;
+ margin-bottom: 5px;
+}
+
+
+
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
