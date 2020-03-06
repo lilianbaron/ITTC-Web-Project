@@ -287,18 +287,15 @@ nav #container1 {
   z-index: 1030;
 }
 
-/* #caption1 {
-      height: 1000px;
-  }
-  
-  #caption2,
-  #caption3 {
-      height: 500px;
-  }
-  
-  .carousel-inner {
-      height: 100vh;
-  } */
+#carousels #social-icons {
+  position: relative;
+  width: 20px;
+  height: 50px;
+  float: right;
+  background: green;
+  z-index: 2060;
+}
+
 
 /*^ End Carousel ^*/
 
