@@ -150,7 +150,7 @@ nav #container1 {
   right: 0;
 }
 
-/* *Side Menu* */
+/* !Side Menu* */
 
 /* 
 #side-menu {
@@ -192,7 +192,7 @@ nav #container1 {
   
   */
 
-/* *End Side Menu* */
+/* !End Side Menu* */
 
 
 /*^ Corousel ^*/
@@ -205,8 +205,7 @@ nav #container1 {
 
 #carousels ul li {
   position: relative;
-  top: -400px;
-  left: -900px;
+  top: -170px;
 }
 
 .carousel-inner .carousel-caption {
@@ -287,18 +286,39 @@ nav #container1 {
   z-index: 1030;
 }
 
-/* #caption1 {
-      height: 1000px;
-  }
-  
-  #caption2,
-  #caption3 {
-      height: 500px;
-  }
-  
-  .carousel-inner {
-      height: 100vh;
-  } */
+nav #social-icons {
+  position: relative;
+  right: -1330px;
+  top: 298px;
+  width: 0;
+  height: 0;
+  float: right;
+  z-index: 2060;
+}
+
+nav #social-icons ul li {
+  list-style: none;
+  padding-bottom: 7px;
+}
+
+nav #social-icons ul li #fb {
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+nav #social-icons ul li a {
+  color: white;
+  font-size: 14px;
+  padding: 8px 10px;
+  margin: 0 1px;
+  border-radius: 50%;
+}
+
+nav #social-icons ul li a:hover {
+  background: #23ced5;
+  transition: .5s ease-in-out;
+}
+
 
 /*^ End Carousel ^*/
 
