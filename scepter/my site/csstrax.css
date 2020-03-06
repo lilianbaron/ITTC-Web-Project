@@ -1,0 +1,185 @@
+body{
+   overflow-x: hidden;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.list ul{
+   
+   padding-bottom: 13px;
+}
+
+.list .navbar-item .dropdown{
+   padding: 0 18px 0 18px;
+   color: white;
+   font-size: .9rem;
+}
+.list ul li a:hover{
+   color: aqua;
+
+}
+.navbar{
+   height: 67px;
+   position: absolute;
+   padding-bottom: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+   color: whitesmoke;
+}
+.navbar-light .navbar-nav .dropdown.active,
+.navbar-light .navbar-nav .dropdown:hover {
+   color: aqua!important;
+   
+}
+/* dropdown-menu */
+#dropdown-Home{
+   width: 800px; height: 200px;
+   left: 30%;
+   background-color: #fff;
+}
+
+.megamenu1{ 
+   
+   padding: 0;
+}
+
+.megamenu1{ 
+   min-width: 1000px;
+   min-height: 200px;
+}
+
+.megamenu1 a{   
+   margin: 1rem 0 0.5rem 0;
+   font-size: 15px;
+  
+} 
+
+.megamenu2{   
+   min-width: 1000px;
+   min-height: 330px;
+}
+
+.megamenu2 h5{
+   margin: 1.5rem 0 0.5rem 1rem;
+   font-size: 19px;
+}
+
+.megamenu2 a{
+   margin: .5rem 0 0.5rem 1rem;
+   padding-left: 0;
+   font-size: 15px;  
+}
+
+.megamenu3{    
+   min-width: 200px;
+   min-height: 100px;
+}
+.navber-item .megamenu3 a{
+   
+}
+
+/* Background Images */
+.images{
+   width: 100%;
+   position: absolute;
+   /* coloring black shadow */
+   /* place it correctly */
+   background-color: rgba(0, 0, 0, 0.6 black);
+}
+
+
+/* Carousel */
+.jpg{
+   width: 100%;
+   height: auto;
+   margin-top: 0%;
+}
+
+.carousel1{
+    position: relative;
+}
+
+.carousel1 .inside1{
+    position: absolute;
+    margin-bottom: 620px;
+}
+
+.inside1 > p:nth-last-of-type(4){
+   color: black;
+}
+
+.inside1 > #letter:nth-of-type(1){
+   
+   font-size: 45px;
+   margin-bottom: 0;
+}
+
+.inside1 > #letter{
+   font-family: 'Amatic SC';
+   
+   font-size: 45px;
+}
+
+.inside1 > h1{
+   font-family: 'Lacquer';
+   
+   font-size: 50px;
+}
+
+/* COPY EVERYTHNG IN 1 */
+.carousel2{
+   position: relative;
+}
+
+.inside2{
+   position: absolute;
+   margin-bottom: 680px;
+}
+
+.inside2 > #letter:nth-of-type(1){
+   
+   font-size: 45px;
+   margin-bottom: 0;
+}
+
+.inside2 > #letter{
+   font-family: 'Amatic SC';
+   
+   font-size: 45px;
+}
+
+.inside2 > h1{
+   font-family: 'Lacquer';
+   
+   font-size: 50px;
+}
+
+.carousel3{
+   position: relative;
+}
+
+.inside3{
+   position: absolute;
+   margin-bottom: 680px;
+}
+
+.inside3 > #letter:nth-of-type(1){
+   
+   margin-bottom: 0;
+}
+
+.inside3 > #letter{
+   font-family: 'Amatic SC';
+   
+   font-size: 45px;
+}
+
+.inside3 > h1{
+   font-family: 'Lacquer';
+   
+   font-size: 50px;
+}
+
