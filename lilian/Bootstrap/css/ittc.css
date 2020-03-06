@@ -194,103 +194,6 @@ li{
 
 
 
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .carousel-item{
     height: 100vh;
     width: 100%;
@@ -303,19 +206,29 @@ li{
 .carousel-caption{
     bottom: 400px;
 }
-.carousel-caption h1{
+.carousel-caption b{
     font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.carousel-caption h1 {                             
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 50vh;
-    font-family: 'poppins' sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: rgb(238, 232, 232);
-    transition-delay: 1s;
+    animation-name: fadeIn; 
+    animation-duration: 6s;
 }
-.carousel-caption h1 b{
-    color: #fff;
-    font-weight: bolder;
-}.carousel-caption p{
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.carousel-caption p{
     color: #fff;
     font-size: 18px;
 }
