@@ -10,6 +10,7 @@
        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
       <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="css/ittc.css">
 </head>
 <body>
@@ -25,7 +26,7 @@
                             <a class="dropdown" href="#" role="button" id="Home" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Home <i class="fa fa-angle-down" aria-hidden="true"></i>
-                          </!DOCTYPE>
+                          </a>
                            <ul id="dropdown-home" class="dropdown-menu" aria-labelledby="Home">
                           <div class="container">
                             <div class="row">
@@ -133,113 +134,69 @@
             <span></span>
             <span></span>
           </div>
-          <div id="side-menu" class="side-menu gradient-bg side-menu-active">
-            <div class="overlay"></div>
-            <div id="side-menu-wrapper" class="inner-wrapper">
-            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose">       
-          <i></i>
-          <i></i>       
-        </span>
-        <nav class="side-nav w-100">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link collapsePagesSideMenu" href="#"  data-toggle="collapse">  
-                Home <i class="fa fa-chevron-down"></i>
-              </a>
-              <ul id="dropdown-home" class="dropdown-menu" aria-labelledby="Home">
-                <a class="dropdown-item active" href="#">Standard Version</a>
-                <a class="dropdown-item" href="#">Creative Agency</a>
-                <a class="dropdown-item" href="#">Classic Light</a>
-                <a class="dropdown-item" href="#">Video Background</a>
-                <a class="dropdown-item" href="#">Modern Agency</a>
-                <a class="dropdown-item" href="#">Classic Startup</a>
-                <a class="dropdown-item" href="#">Flat Version</a>
-                <a class="dropdown-item" href="#">Innovative Layout</a>
-                <a class="dropdown-item" href="#">One Page Layout</a>
-                <a class="dropdown-item" href="#">Center Logo</a>
-                <a class="dropdown-item" href="#">Botton Nav</a>
-                <a class="dropdown-item" href="#">Minimal Gray</a>
-                <a class="dropdown-item" href="#">Parallax Version</a>
-                <a class="dropdown-item" href="#">Interactive Classic</a>
-                <a class="dropdown-item" href="#">Design Studio</a>
-                <a class="dropdown-item" href="#">Interactive Particles</a>
-              </ul>
-            </li>
-            
-            <li class="nav-item"><a href="#">About</a></li>
-
-
-            <li class="nav-item">
-              <a class="nav-link collapsePagesSideMenu" href="#"  data-toggle="collapse">
-                Pages  <i class="fa fa-chevron-down"></i>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link collapsePagesSideMenu" href="#"  data-toggle="collapse">
-                Blog  <i class="fa fa-chevron-down"></i>
-            </li>
-
-            <li class="nav-item"><a href="#">Gallery</a></li>
-            <li class="nav-item"><a href="#">Contact</a></li>
-          </ul> 
-        </nav>
-      </div>
-    </div> 
-           
-          </div>
+        </div>
         </nav>
 
-
-
-
-
+          
+      <div id="side-menu" class="side-menu gradient-bg side-menu-active">
+        <div class="overlay"></div>
+        <div id="side-menu-wrapper" class="inner-wrapper">
+        <span class="btn-close btn-close-no-padding" id="btn_sideNavClose">       
+      <i></i>
+      <i></i>       
+    </span>
+      <ul class="navbar-nav" id="sidemenu-nav">
+        <li class="nav-item">
+          <a class="dropdown" href="#" id="sidemenu-Home" data-toggle="dropdown">  
+            Home <i class="fa fa-angle-down"></i>
+          </a>
+            <!-- <ul id="dropdown-home" class="dropdown-menu" aria-labelledby="sidemenu-Home">
+            <a class="dropdown-item active" href="#">Standard Version</a>
+            <a class="dropdown-item" href="#">Creative Agency</a>
+            <a class="dropdown-item" href="#">Classic Light</a>
+            <a class="dropdown-item" href="#">Video Background</a>
+            <a class="dropdown-item" href="#">Modern Agency</a>
+            <a class="dropdown-item" href="#">Classic Startup</a>
+            <a class="dropdown-item" href="#">Flat Version</a>
+            <a class="dropdown-item" href="#">Innovative Layout</a>
+            <a class="dropdown-item" href="#">One Page Layout</a>
+            <a class="dropdown-item" href="#">Center Logo</a>
+            <a class="dropdown-item" href="#">Botton Nav</a>
+            <a class="dropdown-item" href="#">Minimal Gray</a>
+            <a class="dropdown-item" href="#">Parallax Version</a>
+            <a class="dropdown-item" href="#">Interactive Classic</a>
+            <a class="dropdown-item" href="#">Design Studio</a>
+            <a class="dropdown-item" href="#">Interactive Particles</a>
+          </ul>  -->
+        </li>
         
+        <li class="nav-item"><a href="#">About</a></li>
 
 
-         
+        <li class="nav-item">
+          <a class="dropdown" href="#"  id="sidemenu-page" data-toggle="collapse">
+            Pages  <i class="fa fa-angle-down"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="dropdown" href="#"  id="sidemenu-Blog" data-toggle="collapse">
+            Blog  <i class="fa fa-angle-down"></i>
+            </a>
+        </li>
+
+        <li class="nav-item"><a href="#">Gallery</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+      </ul> 
+
+  </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
-
-
-    <div id="close-side-menu" class="tooltip tooltipstered" style="display: block;"></div>
-  
- 
+   <div id="close-side-menu" class="tooltip tooltipstered" style="display: block;"></div>
+        
+      </div>
     
-
-
-
-
-
-
-
- 
-
-
-
-
-
+  
 
 
 
@@ -250,27 +207,29 @@
           <div class="carousel-item active">
             <img src="images/images-banner1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-            <h1>The Ultimate<br>
-              <b>Creative Business</b><br>
-             In Market</h1>
+            <h1 class="animated fadeIn" style="animation-delay: 6s">The Ultimate</h1>
+              <b class="animated fadeIn" style="animation-delay: 6s">Creative Business</b>
+              <h1 class="animated fadeIn" style="animation-delay: 6s">In Market</h1>
              <p>The Best Multipurpose Multi Page Template in Market</p>
             </div>
           </div>
+
+
           <div class="carousel-item">
             <img src="images/images-banner2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-            <h1>Let's Create<br>
-              <b>Deep Creativity</b><br>
-                 In Market</h1>
+            <h1 class="animated fadeIn" style="animation-delay: 6s">Let's Create</h1>
+              <b class="animated fadeIn" style="animation-delay: 6s">Deep Creativity</b>
+                 <h1 class="animated fadeIn" style="animation-delay: 6s">In Market</h1>
                  <p>Responsive and Retina Ready for All Devices</p>
                 </div>
           </div>
           <div class="carousel-item">
             <img src="images/images-banner3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-            <h1>We Make<br> 
-              <b> Inspired Design </b><br>
-               Our Trax</h1>
+            <h1 class="animated fadeIn" style="animation-delay: 6s">We Make</h1>
+              <b class="animated fadeIn" style="animation-delay: 6s"> Inspired Design</b>
+               <h1 class="animated fadeIn" style="animation-delay: 6s">Our Trax</h1>
              <p>Is a New Design Studio founded in NewYork</p>
             </div>
           </div>
@@ -333,10 +292,11 @@
           </div>
         </div>
       </div>
-    
+
+     
 
 
-
+     
 
 
 

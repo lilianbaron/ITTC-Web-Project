@@ -17,10 +17,15 @@ $(document).ready(function(){
 });
 
  $(document).ready(function(){
-      $(".toggle-btn").click(function () {
-     $(".sidebar-menu").toggle()   
-     });
- });
+       $(".toggle-btn").click(function () {
+      $(".side-menu").toggle()   
+      });
+  });
+  $(document).ready(function() {
+    $(".btn-close").click(function(){
+      $("#side-menu").toggle();
+    });
+  });
 
 
 
