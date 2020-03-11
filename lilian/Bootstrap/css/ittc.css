@@ -114,7 +114,61 @@ li{
 }
 #sidebar .toggle-btn:hover span:nth-child(3) {
     right: 0;
-} 
+}
+
+ .sidebar-icons {
+    position: fixed;
+    top: 280px;
+    right: 70px;
+    width: 0;
+    height: 0;
+    float: right;
+    z-index: 2060;
+  }
+   .sidebar-icons ul li {
+    list-style: none;
+    padding-bottom: 7px;
+  }
+  
+   .sidebar-icons ul li #fb {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+   .sidebar-icons ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 8px 10px;
+    margin: 0 1px;
+    border-radius: 50%;
+  }
+  
+   .sidebar-icons ul li a:hover {
+    background: #23ced5;
+    transition: .5s ease-in-out;
+  }
+
+  .sidebar-number{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    width: 0;
+    height: 0;
+    float: left;
+    z-index: 2060;
+  }
+  .sidebar-number ul li{
+      list-style: none;
+      padding-bottom: 8px;
+  }
+  .sidebar-number ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 8px 10px;
+    margin: 0 1px;
+    border-radius: 50%;
+  }
+
 
 
 
@@ -204,7 +258,7 @@ li{
     visibility: inherit;
 }
 .carousel-caption{
-    bottom: 400px;
+    bottom: 200px;
 }
 .carousel-caption b{
     font-size: 48px;
