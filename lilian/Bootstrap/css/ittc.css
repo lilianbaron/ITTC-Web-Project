@@ -264,6 +264,8 @@ li{
     font-size: 48px;
     font-weight: bolder;
     font-family: 'Open Sans Condensed', sans-serif;
+    animation-name: fadeInUp; 
+    animation-duration: 1s;
 }
 
 .carousel-caption h1 {                             
@@ -271,10 +273,10 @@ li{
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     color: rgb(238, 232, 232);
-    animation-name: fadeIn; 
-    animation-duration: 6s;
+    animation-name: fadeInUp; 
+    animation-duration: 1s;
 }
-@keyframes fadeIn{
+@keyframes fadeInUp{
     from {
         opacity: 0;
     }
