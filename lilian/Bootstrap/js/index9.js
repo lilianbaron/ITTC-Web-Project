@@ -27,6 +27,12 @@ $(document).ready(function(){
     });
   });
 
+  // $(document).ready(function(){
+  //   $(".sidebar-number").hover(function(){
+  //     $(".carousel-item").fadeIn();
+  //   });
+  // });
+
 
 
 //  $(document).ready(function () {
