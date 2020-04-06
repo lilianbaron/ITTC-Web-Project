@@ -1,61 +1,107 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Sticky menu Bar</title>
+    <title>Responsive Full Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="http://ittc.kr/files/attach/images/134/d9f472438769d56ac66bfb68834685b4.png" alt="ITTC"> 
-        </div>
-         <ul>
-             <li><a href="#" class="active">Home</a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Course</a></li>
-             <li><a href="#">Services</a></li>
-             <li><a href="#">Porfolio</a></li>
-             <li><a href="#">Contact</a></li>
-         </ul>
-    </nav>
+   <header class="header">
+     <ul class="boxslider">
+        <li>
+          <div class="images">
+              <img src="images/1.jpg" alt="" width: "100">
+          </div>
+        </li>
+
+     </ul>
+      <nav class="nav">
+          <ul>
+
+            <li class="logo">
+              <a href="#">
+                <img src="http://ittc.kr/files/attach/images/134/f0851f1148995ebd652a48c9966deb80.png" alt="ITTC" class="white"><img src="http://ittc.kr/files/attach/images/134/f0851f1148995ebd652a48c9966deb80.png" alt="ITTC" class="black">
+            </a>
+          </li>
+
+
+            <li><a href="">Welcome ITTC</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Mission</a></li>
+            <li><a href="">Students</a></li>
+            <li><a href="">News</a></li>
+            
+          </ul>
+
+          <a class="nav-icon" href="javascript:void(0);">
+            <span></span><span></span><span></span>
+          </a>
+      </nav>
+   </header>
+   <div style="height: 500px;"></div>
+   <div class="full-nav">
+     <div class="logo"><a href=""><img src="http://ittc.kr/files/attach/images/134/f0851f1148995ebd652a48c9966deb80.png" alt=""></a></div>
+   
+      <nav class="nav2">
+          <ul>
+            <li><a href=""><span>01. </span>Home</a></li>
+            <li><a href=""><span>02. </span>About</a></li>
+            <li><a href=""><span>03. </span>Course</a></li>
+            <li><a href=""><span>04. </span>Operation</a></li>
+            <li><a href=""><span>05. </span>Board</a></li>
+            <li><a href=""><span>06. </span>Mission</a></li>
+            <li><a href=""><span>07. </span>Students</a></li>
+            <li><a href=""><span>08. </span>News</a></li>
+          </ul>
+      </nav>
+
+      <ul class="social-icons list-inline">
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+          <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+      </ul>
+
+      <div class="corner-circle">
+        <a href="javascript:void(0);" class="nav-close"><span></span><span></span></a>
+      </div>
+
+    </div>
+
+   
+
+
+   <main>
+
+
+   </main>
+
+   <footer>
+
+
+   </footer>
     
-    <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div id="carousel1" class="carousel-item active">
-            <img src="images/images-banner1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <h1 class="animated fadeInUp" style="animation-delay: 1s">The Ultimate</h1>
-              <h1 id="middle-text" class="animated fadeInUp" style="animation-delay: 1s">Creative Business</h1>
-              <h1 class="animated fadeInUp" style="animation-delay: 1s">In Market</h1>
-             <h4 class="animated fadeinUp" style="animation-delay: 1s">The Best Multipurpose Multi Page Template in Market</h4>
-            </div>
-          </div>
 
 
-          <div id="carousel2" class="carousel-item">
-            <img src="images/images-banner2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <h1 class="animated fadeInUp" style="animation-delay: 1s">Let's Create</h1>
-              <h1 id="middle-text" class="animated fadeInUp" style="animation-delay: 1s">Deep Creativity</h1>
-                 <h1 class="animated fadeInUp" style="animation-delay: 1s">In Market</h1>
-                 <h4 class="animated fadeInUp" style="animation-delay: 1s">Responsive and Retina Ready for All Devices</h4>
-                </div>
-          </div>
 
-          <div id="carousel3" class="carousel-item">
-            <img src="images/images-banner3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <h1 class="animated fadeInUp" style="animation-delay: 6s">We Make</h1>
-              <h1 id="middle-text" class="animated fadeInUp" style="animation-delay: 6s"> Inspired Design</h1>
-               <h1 class="animated fadeInUp" style="animation-delay: 6s">Our Trax</h1>
-             <h4 class="fadeInUp" style="animation-delay: 1s">Is a New Design Studio founded in NewYork</h4>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
+
+
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <script src="js/index10.js"></script>
 </body>
 </html>
