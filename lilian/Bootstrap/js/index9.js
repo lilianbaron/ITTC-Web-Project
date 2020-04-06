@@ -27,21 +27,21 @@ $(document).ready(function(){
     });
   });
 
-  // $(document).ready(function(){
-  //   $(".sidebar-number").hover(function(){
-  //     $(".carousel-item").fadeIn();
-  //   });
-  // });
+  $(document).on("scroll", function(){
+    if($(document).scrollTop()) {
+      $('nav').addClass('black');
+    }
 
+    else{
+      $('nav').removeClass('black');
+    }
+  });
+  $('.num').counterUp({
+    delay: 10,
+    time: 1000
+});
 
-
-//  $(document).ready(function () {
-//   $("#btn-sidebar").click(function () {
-//     $("#side-menu-wrapper").show(500);
-//   });
-//   });
-
-
+ 
 
 var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
@@ -68,6 +68,8 @@ var swiper = new Swiper('.swiper-container', {
       slideShadows: false,
     },
   });
+
+  // $(".heading-title").fadeInLeft(3000);
 
   
 
