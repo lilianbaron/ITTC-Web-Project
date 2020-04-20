@@ -610,6 +610,122 @@ p.text-secondary{
     padding-left: 15px;
     
 }
+ 
+footer p{
+    color: #fff;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer h2,h3{
+    color: #fff;
+}
+footer h2{
+    font-size: 18px;
+}
+.footer-top{
+    background: #111;
+    padding: 80px 0;
+    height: 450px;
+}
+
+.segment-one h3{
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.segment-two h3{
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.segment-two h3:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.segment-three h3{
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.segment-three h3:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a{
+    background: #494848;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 50px;
+}
+.segment-three a:hover{
+    background: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 12px 14px;
+}
+.segment-three a i:hover{
+    color: black;
+}
+
+.segment-four h3{
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.segment-four h3:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+footer input{ 
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+footer .input-group .input-group-text{
+    background: linear-gradient(to bottom, #dd2476, #ff512f);
+    border: none;
+}
+
+.text{
+    color: #fff;
+    text-align: center;
+    padding: -50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 
 
 
