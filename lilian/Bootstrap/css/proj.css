@@ -1,46 +1,30 @@
 *{
     padding: 0;
-    margin: 0;
+    margin:0;
     box-sizing: border-box;
 }
 html{
     font-size: 10px;
-    font-family: 'Roboto Condensed',sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 a{
     text-decoration: none;
 }
 .container{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-p{
-    font-size: 15px;
-    color: white;
-    text-align: left;
-    line-height: 1.9rem;
-}
-#hero .hero{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 50px;
-    justify-content: flex-start;
-}
+} 
+/*Hero Section*/
 
 #hero{
     background-image: url(../images/1.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
+    z-index: 1;
 }
 #hero::after{
     content: '';
@@ -50,74 +34,73 @@ p{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .7;
+    opacity: .4;
     z-index: -1;
 }
-
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
 #hero h1{
     display: block;
     width: fit-content;
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
-    color: transparent;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1.5s;
+    color: white;
 }
-
-#hero h1 span{
+/* #hero h1 span{
     position: absolute;
     top: 0;
     left: 0;
+    width: 0;
     height: 100%;
-    width: 0%;
+    width: 100%;
     background-color: crimson;
     animation: text_reveal_box 1s ease;
     animation-delay: 1s;
-}
-
+} */
 #hero .cta{
-    display:inline-block;
+    display: inline-block;
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid crimson;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    border: 1px solid crimson;
+    font-size: 17px;
     text-transform: uppercase;
     margin-top: 30px;
-    transition: .3s ease;
+    transition: .3 ease;
     transition-property: background-color, color;
 }
 #hero .cta:hover{
     color: white;
     background-color: crimson;
 }
+/*end of Hero Section*/
 
+/*Services Section*/
 #services .services{
     flex-direction: column;
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 #services .section-title{
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 40px;
     color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-align: center;
 }
-
 #services .service-top p{
-    color: black;
     font-size: 15px;
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: 300;
-    text-align: center;
 
 }
 
@@ -128,7 +111,6 @@ p{
     flex-wrap: wrap;
     margin-top: 50px;
 }
-
 #services .service-item{
     flex-basis: 80%;
     display: flex;
@@ -160,28 +142,255 @@ p{
     width: 50px;
     margin-bottom: 20px;
 }
-
 #services .service-bottom .icon img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-
 #services .service-item h2{
-    font-size: 2rem;
+    font-size: 20px;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
-
 }
-
 #services .service-item p{
-    font-size: 15px;
     color: white;
     text-align: left;
-    line-height: 1.9rem;
+    font-size: 15px;
+    line-height: 19px;
 }
-@keyframes text_reveal_box{
+/*End of Services Section*/
+
+/*section 2*/
+.section-container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+.section-header{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.section-header h1{
+    font-size: 35px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+.section-header p{
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+img{
+    width: 100%;
+}
+.card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+}
+.card h3{
+    margin-bottom: 2rem;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.card p{
+    font-size: 13px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+.card img{
+    height: 250px;
+    border-radius: 10px;
+}
+.card a{
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+.card > div{
+    padding: 2rem;
+}
+.card:nth-child(even) img{
+    order: 2;
+}
+.btn{
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+@media(max-width: 600px){
+    .card {
+        display: block;
+    }
+}
+/*end of Section 2*/
+
+ /*About Section*/
+
+ #about .about{
+     flex-direction: column-reverse;
+     text-align: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 100px 20px;
+ }
+ #about .col-left{
+     width: 280px;
+     height: 300px;
+ }
+ #about .col-right{
+     width: 100%;
+
+ }
+ #about .col-right h1{
+     font-size: 30px;
+     letter-spacing: 2px;
+ }
+ #about .col-right h2{
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     margin-bottom: 10px;
+ }
+ #about .col-right p{
+     margin-bottom: 15px;
+     font-size: 14px;
+ }
+ #about .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid crimson;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: .3 ease;
+    transition-property: background-color, color;
+}
+#about .cta:hover{
+    color: white;
+    background-color: crimson;
+}
+#about .col-right .cta{
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+#about .col-left .about-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5); ;
+}
+/* #about .col-left .about-img::after{
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid crimson;
+    z-index: -1;
+} */
+/*end About Section*/
+
+/*Contact Section*/
+
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contact .contact-items{
+    width: 350px;
+}
+#contact .contact-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    flex-direction: column;
+}
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0 #0000002c;
+    transition: .3s ease box-shadow;
+}
+#contact .icon{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#contact .contact-info h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#contact .contact-info h2{
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+/*End Contact Section*/
+
+/*Footer Section*/
+ #footer{
+     margin-top: 30px;
+     background: #111;
+     height: 60vh;
+ }
+ #footer .footer{
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 40px;
+ }
+ #footer .footer-bottom{
+     display: flex;
+     flex-direction: row;
+ }
+ #footer .footer-bottom .col-md-4{
+     padding-left: 50px;
+ }
+ #footer .footer-bottom h3{
+     padding-top: 40px;
+     color: white;
+     font-size: 20px;
+ }
+ #footer .footer-bottom a{
+     list-style: none;
+     color: white;
+     display: block;
+     font-size: 15px;
+ }
+ 
+ 
+/*End Footer Section*/
+/*keyframes*/
+/* @keyframes text_reveal_box{
     50%{
         width: 100%;
         left: 0;
@@ -190,10 +399,8 @@ p{
         width: 0;
         left: 100%;
     }
-}
-@keyframes text_reveal{
-    100%{
-        color: white;
-    }
-}
+    
+
+} */
+/*End of Keyframes*/
 
