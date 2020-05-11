@@ -10,21 +10,28 @@ html{
 a{
     text-decoration: none;
 }
-.container{
+/* .container{
      min-height: 100vh; 
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-} 
+}  */
 /*Hero Section*/
 
-#hero{
+#hero {
     background-image: url(../images/1.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
     z-index: 1;
+}
+#hero .container{
+    min-height: 100vh; 
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 #hero::after{
     content: '';
@@ -87,6 +94,14 @@ a{
     margin: 0 auto;
     padding: 80px 0;
 }
+#services .container{
+    min-height: 100vh; 
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 #services .section-title{
     font-size: 35px;
     font-weight: 40px;
@@ -252,6 +267,13 @@ img{
      margin: 0 auto;
      padding: 100px 20px;
  }
+ #about .container{
+    min-height: 100vh; 
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
  #about .col-left{
      width: 280px;
      height: 300px;
@@ -320,6 +342,13 @@ img{
     max-width: 1200px;
     margin: 0 auto;
 }
+#contact .container{
+    min-height: 100vh; 
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 #contact .contact-items{
     width: 350px;
 }
@@ -358,35 +387,8 @@ img{
 /*End Contact Section*/
 
 /*Footer Section*/
- #footer{
-     margin-top: 30px;
-     background: #111;
-     height: 80vh;
- }
- #footer .footer{
-    flex-direction: column;
-    padding-top: -10px;
-    padding-bottom: 40px;
- }
- #footer .footer-bottom{
-     display: flex;
-     flex-direction: row;
- }
- #footer .footer-bottom .col-md-4{
-     padding-left: 250px;
- }
- #footer .footer-bottom h3{
-     padding-top: 40px;
-     color: white;
-     font-size: 20px;
- }
- #footer .footer-bottom a{
-     list-style: none;
-     color: white;
-     display: block;
-     font-size: 15px;
- }
- 
+
+
  
 /*End Footer Section*/
 /*keyframes*/
