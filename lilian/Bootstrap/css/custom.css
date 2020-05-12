@@ -213,6 +213,89 @@ p{
 .ctabs{
     padding-top: 50px;
 }
+
+/*Service section*/
+.service-title h2{
+    color: crimson;
+    margin-top: 80px;
+    margin-left: 70px;
+    /* margin-bottom: 20px; */
+    font-size: 45px;
+}
+.subheading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.serv{
+    padding: 25px;
+}
+
+.srv i{
+    font-size: 40px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+    color: #BA55D3;
+}
+
+/* #blur{
+    background-image: linear-gradient(to bottom,#B22222, #DC143C, #F08080);
+} */
+/*Swiper*/
+#blur {
+    position: relative;
+    top: -50px;
+    height: 100vh;
+    width: 100%;
+    background: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    z-index: 1030;
+    overflow: hidden;
+}
+
+.swiper-container {
+    position: relative;
+    left: -100px;
+    margin: 0;
+    padding: 0;
+    width: 1325px;
+    height: 70%;
+}
+.swiper-slide {
+    text-align: center;
+    background: rgb(18, 18, 24);
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+#blur .swiper-container .swiper-wrapper .swiper-slide-next{
+    background-image: linear-gradient(to right,#DC143C, #F08080);
+}
+.text i{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.text h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
 /*team Section*/
 
 /* #team h2{
