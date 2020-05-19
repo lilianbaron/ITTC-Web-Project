@@ -164,7 +164,7 @@ p{
 
 .course-title h2{
     color: crimson;
-    padding-top: 20px;
+    padding-top: 70px;
     margin-left: 70px;
     /* margin-bottom: 20px; */
     font-size: 45px;
@@ -506,11 +506,36 @@ p{
     font-weight: 500;
 }
 
+/*Pre Footer*/
+#pfooter{
+    background: rgb(153, 150, 150);
+}
+.pft{
+     border-bottom: 1px solid crimson;
+    padding-top: 20px;
+}
+.pft a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+}
+#pfooter h6{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    color: crimson;
+    font-weight: 600;
+}
+.pft i{
+    margin-right: 10px;
+    color: crimson;
+}
 
 /* Footer*/
 
 footer{
-    background: #333;
+    background: #222;
     height: 100px;
     padding: 30px;
 }
