@@ -28,7 +28,7 @@ p{
 
 .navbar-brand img{ 
     margin-top: 5px; 
-    margin-left: 100px;
+    margin-left: 60px;
 }
 .navbar-brand a{
     padding: 0px
@@ -44,10 +44,10 @@ p{
 }  */
 
  .trn a{
-    margin-right: 15px;
+    margin-right: 25px;
     color: black !important;
     border-bottom: 2px solid transparent;
-    font-size: 14px;
+    font-size: 15px;
 }
  .trn a:hover{
     border-bottom: 2px solid rgb(243, 50, 82);
@@ -132,7 +132,7 @@ p{
 } 
 
 
-@media only screen and (max-width: 770px){
+ @media only screen and (max-width: 770px){
     .carousel-caption{
         margin-bottom: 15%;
         width: 70%;
@@ -158,11 +158,11 @@ p{
     .carousel-caption p{
         display: none;
     } 
-    .btn{
+     /* .btn{
         width: 100px !important;
         padding: 5px 10px !important;
         margin: 5px 8px !important;
-    }
+    }  */
 }
 @media only screen and (max-width: 425px) {
     .carousel-caption h5, p{
@@ -171,7 +171,7 @@ p{
     .btn{
         margin-bottom: 10px;
     }
-}
+} 
 
 /*Course Section*/
 
@@ -193,9 +193,9 @@ p{
     font-size: 35px;
     
 } */
-#course{
+ #course{
     background-image: linear-gradient(to bottom,#B22222, #DC143C, #F08080);
-} 
+}  
 .card{
     background-image: linear-gradient(to bottom, #F08080,#DC143C,#B22222);
     border: 2px solid #fff;
@@ -577,4 +577,45 @@ footer{
 }
 .social-media i:hover{
     color:crimson;
+}
+
+/* Media Queries*/
+
+@media only screen and (max-width: 991px){
+    .bd-example{
+        padding-top: 100px;
+    }
+    .carousel-item{
+        width: 100%;
+    }
+    .navbar-brand{
+        margin-left: -60px;
+    }
+    .col-md-6 p{
+        margin-bottom: 30px;
+    }
+    .col-md-6 h3{
+        margin-left: 20px;
+    }
+    #about h2{
+        margin-top: -60px;
+        margin-bottom: 40px;
+    }
+    .course-title h2{
+        margin-top:  50px;
+        margin-bottom: 30px;
+    }
+    .card{
+        margin-top: 25px;
+    }
+   .team-member{
+       margin-top: 30px;
+       margin-left: 80px;
+   }
+   .col-md-8{
+       margin-top: 10px;
+   }
+   .col-md-4{
+       margin-left: 10px;
+   }
 }
