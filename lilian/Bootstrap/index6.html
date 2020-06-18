@@ -11,31 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
 <body>
-     <nav>
-       <div class="logo">
-         <h4>My Portfolio</h4>
-       </div>
-       <ul class="nav-links">
-         <li><a href="">Home</a></li>
-         <li><a href="">About</a></li>
-         <li><a href="">Contact</a></li>
-         <li><a href="">Services</a></li>
-         <li><a href="">Portfolio</a></li>
-       </ul>
-     </nav>
-     
+  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top ">
+    <div class="container d-flex">
+      <div class="logo">
+        <a href="">ITTC</a>
+      </div>
+       <div class="contact-info mr-auto">
+        <i class="fa fa-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
+        <i class="fa fa-phone"></i> +1 5589 55488 55
+      </div> 
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="skype"><i class="fa fa-skype"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></i></a>
+      </div>
+    </div>
+  </div>
     
    <section class="hero">
     <div class="container gap100">
         <div class="row">
-            <div class="col-md-6">
-                <p>GoDaddy Website Builder</p>
-                <h1>A brilliant <br>
+            <div class="col-md-6" data-aos="fade-in" data-aos-delay="2000">
+                <h1 class="pt-5">A brilliant <br>
                  website is just <br>
                  the beginning.</h1> <br>
 
@@ -53,7 +58,7 @@
 </section>
 
 <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-duration="2000">
         <div class="col-md-4">
             <h6 class="pb-3">Manage it all in one place.</h6>
             <p>Create your website and online store, plus manage social media and email marketing, all in one spot.</p>
@@ -64,12 +69,29 @@
         </div>
         <div class="col-md-4">
             <h6 class="pb-3">Go further online with the power of AI.</h6>
-            <p>Grow your online presence with GoDaddy InSight™, the data-crunching, smart tech that offers advice tailored to your business.</p>
+            <p>Grow your online presence with ITTC, the data-crunching, smart tech that offers advice tailored to your business.</p>
         </div>
     </div>
 </div>
 
-<nav class="nav2 gap100">
+
+<header>
+  <div class="container">
+    <nav class="nav">
+      <a href="#" class="logo">ITTC.</a>
+      <ul class="nav-list">
+        <li><a href="#overview" class="nav-link">Overview</a></li>
+        <li><a href="#Insight" class="nav-link">InSight</a></li>
+        <li><a href="#Online" class="nav-link">Online</a></li>
+        <li><a href="#Marketing" class="nav-link">Marketing</a></li>
+        <li><a href="#Plans" class="nav-link">Plans</a></li>
+      </ul>
+      <a href="#" id="nav-cta">Book Now</a>
+    </nav>
+  </div>
+</header>
+
+<!-- <nav class="nav2 gap100">
     <ul>
       <li><a href="">Welcome ITTC</a></li>
       <li><a href="">About</a></li>
@@ -78,14 +100,13 @@
       <li><a href="">Students</a></li>
       <li><a href="">News</a></li>       
     </ul>
-</nav>
+</nav> -->
   <hr>
      
   <section id="overview">
       <div class="container gap100">
           <div class="row">
-            <div class="col-md-6">
-                <p>Website Builder Features</p>
+            <div class="col-md-6" data-aos="fade-in" data-aos-delay="2000">
                 <h1>A powerful site <br>
                     builder at your<br>
                     fingertips.
@@ -111,8 +132,8 @@
             <div class="col-md-6">
               <img src="images/img2.jpg"  alt="" width="500" height="450">
           </div>
-             <div class="col-md-6 text-justify pl-5">
-                 <p>GoDaddy InSight™</p>
+             <div class="col-md-6 text-justify pl-5" data-aos="fade-in" data-aos-delay="2000">
+                
                  <h1>Take the guesswork <br> 
                     out of building a <br> 
                     better business with <br> 
@@ -131,7 +152,7 @@
   <section id="Online">
     <div class="container gap100">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-in" data-aos-delay="2000">
             <p>
               Make a Website With a Built-In Store
             </p>
@@ -143,7 +164,7 @@
                Create a sleek-looking online store, easily set up <br>
                 product pages and choose from flexible shipping <br>
                  and payment options. Whether you sell products, <br> 
-                 services or digital content, GoDaddy Online Store <br>
+                 services or digital content, Online Store <br>
                  has everything you need to successfully sell online.</p>
 
                   <a href="" class="button">Start for Free</a>
@@ -163,7 +184,7 @@
           <div class="col-md-6">
             <img src="images/img4.jpg" alt="" height="400" width="500">
         </div>
-           <div class="col-md-6 text-justify pl-5">
+           <div class="col-md-6 text-justify pl-5" data-aos="fade-in" data-aos-delay="2000">
                <p>Marketing Tools</p>
                <h1>Connect with <br>
                   your audience.</h1>
@@ -185,8 +206,8 @@
 <section id="Plans">
   <div class="container gap100">
       <div class="row">
-        <div class="col-md-6 text-justify pl-5">
-          <h1 class="mt-4">Pick a  plan that<br> works for you.</h1>
+        <div class="col-md-6 text-justify pl-5" data-aos="fade-in" data-aos-delay="2000">
+          <h1>Pick a  plan that<br> works for you.</h1>
           <p class="mt-3">
            Get started today with a one-month free trial to play <br> with all the features of this one-stop shop site  <br> builder. You can pick the plan that works for you <br>later.
          </p>
@@ -380,6 +401,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      window.addEventListener('scroll', function (){
+        let header = document.querySelector('header');
+        let windowPosition = window.scrollY > 0;
+        header.classList.toggle('scrolling-active', windowPosition);
+      })
+    </script>
 </body>
 </html>
