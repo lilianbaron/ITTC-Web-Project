@@ -133,12 +133,12 @@ h5{
    background: #000;
    height: 100px;
    width: 100%;
-   position: fixed;
+    position: sticky;  
    top: 45px; 
    left: 0;
    transition: background-color .5s ease;
    z-index: 1000;
-   position: relative;
+    position: relative; 
  }
  .container{
    width: 100%;

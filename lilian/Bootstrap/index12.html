@@ -75,7 +75,7 @@
 </div>
 
 
-<header>
+<header id="header">
   <div class="container">
     <nav class="nav">
       <a href="#" class="logo">ITTC.</a>
@@ -406,6 +406,23 @@
       AOS.init();
     </script>
     <script>
+
+      $(document).ready(function(){
+        $("#header").sticky({
+          topSpacing: 0,
+          zIndex: '50'
+        });
+      });
+
+      // !(function($) {
+      //   "use strict";
+
+      //   $("#header").sticky({
+      //     topSpacing: 0,
+      //     zIndex: '50'
+      //   });
+      // })(jQuery);
+    
       window.addEventListener('scroll', function (){
         let header = document.querySelector('header');
         let windowPosition = window.scrollY > 0;
