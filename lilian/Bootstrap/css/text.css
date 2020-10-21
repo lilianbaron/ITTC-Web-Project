@@ -138,7 +138,7 @@ h5{
    left: 0;
    transition: background-color .5s ease;
    z-index: 1000;
-    position: relative; 
+    /* position: relative;  */
  }
  .container{
    width: 100%;
@@ -355,7 +355,7 @@ image{
   position: relative;
   border-bottom: 4px solid rgb(6, 51, 248);
   transition: all 0.5s ease 0s;
-  z-index: 9994;
+  z-index: 100000;
 }
 .pft i{
   margin-right: 10px;
